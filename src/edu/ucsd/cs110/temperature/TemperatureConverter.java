@@ -36,7 +36,6 @@ public class TemperatureConverter {
                     System.out.println("Invalid entry!!\n\n");
                     continue;
             }
-
             System.out.print("Enter the unit to convert TO: ");
             if((input = reader.readLine()) == null) System.exit(0);
 
